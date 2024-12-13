@@ -1,0 +1,76 @@
+.pai-dos-lados {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.pai-dos-lados div {
+    width: 50%;
+}
+
+.pai-dos-lados .ladod img {
+    width: 100%;
+}
+
+.pai-dos-lados .ladoe p {
+    text-align: justify;
+}
+
+.pai-dos-lados .ladoe {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pai-dos-lados .ladoe h1,
+.newsletter h2 {
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.newsletter .paragrafo p {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.newsletter .escrever form {
+    display: flex;
+    gap: 5px;
+}
+.newsletter form input {
+    padding: 10px 6px;
+}
+
+.btn {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: firebrick;
+    color: white;
+    box-shadow: black 3px 3px 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 780px) { 
+    .newsletter .form{
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+@media screen and (max-width: 733px) {
+    .pai-dos-lados{
+        flex-direction: column-reverse;
+    }
+    .pai-dos-lados div {
+        width: 100%;
+    }
+}

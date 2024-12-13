@@ -1,0 +1,11 @@
+.historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+.historia img{
+    width: 30%;
+    align-items: center;
+}
